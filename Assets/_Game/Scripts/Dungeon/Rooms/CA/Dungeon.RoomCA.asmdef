@@ -1,0 +1,5 @@
+{
+  "name": "Dungeon.RoomCA",
+  "references": ["Dungeon.Runtime", "Dungeon.CA"],
+  "autoReferenced": true
+}

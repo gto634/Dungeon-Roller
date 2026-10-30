@@ -1,0 +1,11 @@
+{
+  "name": "Game.UI",
+  "references": [
+    "Game.Management",
+    "Dungeon.Runtime",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true
+}

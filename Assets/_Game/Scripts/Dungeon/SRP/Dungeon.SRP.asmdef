@@ -1,0 +1,5 @@
+{
+  "name": "Dungeon.SRP",
+  "references": ["Dungeon.Runtime"],
+  "autoReferenced": true
+}

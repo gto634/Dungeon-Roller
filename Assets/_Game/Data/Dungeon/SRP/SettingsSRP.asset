@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f556cd995ba9d4b9c2eb3b4411940a, type: 3}
+  m_Name: SettingsSRP
+  m_EditorClassIdentifier: Dungeon.SRP::SettingsSRP
+  barrel: {fileID: 11400000, guid: 7ee88c18ecccf7b439cac82b5264c025, type: 2}
+  traps:
+  - {fileID: 11400000, guid: 01687b83b26eb074eb25480b658b19cb, type: 2}

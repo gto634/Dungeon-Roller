@@ -1,0 +1,17 @@
+.manager-tools-section {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.manager-tools-status {
+    white-space: normal;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+.manager-tools-command {
+    white-space: normal;
+    min-height: 24px;
+    margin-top: 2px;
+}
+.manager-tools-hidden {
+    display: none;
+}

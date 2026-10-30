@@ -1,0 +1,10 @@
+{
+  "name": "Game.Management",
+  "references": [
+    "Dungeon.Runtime",
+    "Dungeon.SRP",
+    "Unity.InputSystem",
+    "Unity.Cinemachine"
+  ],
+  "autoReferenced": true
+}

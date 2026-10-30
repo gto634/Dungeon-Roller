@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MeteorFlame 1
+  m_Shader: {fileID: 4800000, guid: 6f10e2b057c24fe47bd0f7154d9f5316, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _PatternAtlas:
+        m_Texture: {fileID: 2800000, guid: cce267d90bf35f840b994c84fbe19b61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TireTrackMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 8
+    - _CastShadowBand: 2
+    - _CastShadowBrightness: 7
+    - _CastShadowColor: 9
+    - _CastShadowDarkness: 0
+    - _CastShadowGroundOnly: 1
+    - _CastShadowOpacity: 1
+    - _Exposure: 0.5
+    - _InkColor: 0
+    - _InkDarkness: 0.5
+    - _InkFromBase: 0
+    - _MaterialId: 1
+    - _Outline: 1
+    - _OutlineColor: 0
+    - _OutlineCreaseAngle: 80
+    - _OutlineDarkness: 0
+    - _OutlineDepthSensitivity: 0.379
+    - _OutlineDrawCreases: 0
+    - _OutlineSoftness: 0.75
+    - _OutlineWidth: 1
+    - _PaletteColor: 3
+    - _PaletteDarkness: 0
+    - _PatternBand: 0
+    - _PatternDensity: 48
+    - _Projection: 0
+    - _ReceiveCastShadows: 1
+    - _ScreenPixelSize: 2
+    - _ShadingMode: 0
+    - _Shadow1Band: 7
+    - _Shadow1Brightness: 5
+    - _Shadow1Color: 9
+    - _Shadow1Darken: 3
+    - _Shadow1Darkness: 0
+    - _Shadow1Size: 0.5
+    - _Shadow2Band: 7
+    - _Shadow2Brightness: 2
+    - _Shadow2Color: 0
+    - _Shadow2Darken: 5
+    - _Shadow2Darkness: 0
+    - _Shadow2Size: 0.15
+    - _Shadow3Band: 7
+    - _Shadow3Brightness: 1
+    - _Shadow3Color: 0
+    - _Shadow3Darkness: 0
+    - _Shadow3Size: 0.08
+    - _Shadow4Band: 7
+    - _Shadow4Brightness: 0
+    - _Shadow4Color: 0
+    - _Shadow4Darkness: 0
+    - _Shadow4Size: 0.04
+    - _Shadow5Band: 7
+    - _Shadow5Brightness: 0
+    - _Shadow5Color: 0
+    - _Shadow5Darkness: 0
+    - _Shadow5Size: 0.02
+    - _Shadow6Band: 7
+    - _Shadow6Brightness: 0
+    - _Shadow6Color: 0
+    - _Shadow6Darkness: 0
+    - _Shadow6Size: 0.01
+    - _ShadowDarkness: 0.64
+    - _ShadowLayers: 2
+    - _Specular: 0
+    - _SpecularBand: 0
+    - _SpecularColor: 8
+    - _SpecularDarkness: 0
+    - _SpecularDensity: 3
+    - _SpecularSize: 0.3
+    - _TireTracksEnabled: 0
+    m_Colors:
+    - _CastShadowCustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InkCustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineCustomColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PaletteCustomColor: {r: 1, g: 0.04825934, b: 0.04825934, a: 1}
+    - _Shadow1CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow2CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow3CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow4CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow5CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow6CustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularCustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TireTrackColor: {r: 0.025, g: 0.022, b: 0.02, a: 0.8}
+    - _TireTracksRoomSize: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

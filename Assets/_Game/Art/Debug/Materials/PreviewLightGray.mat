@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PreviewLightGray
+  m_Shader: {fileID: 4800000, guid: 6f10e2b057c24fe47bd0f7154d9f5316, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _PatternAtlas:
+        m_Texture: {fileID: 2800000, guid: cce267d90bf35f840b994c84fbe19b61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 8
+    - _CastShadowBand: 7
+    - _CastShadowBrightness: 2
+    - _CastShadowColor: 9
+    - _CastShadowDarkness: 0
+    - _CastShadowGroundOnly: 1
+    - _CastShadowOpacity: 1
+    - _Exposure: 0.5
+    - _InkColor: 0
+    - _InkDarkness: 0.5
+    - _InkFromBase: 0
+    - _MaterialId: 0
+    - _Outline: 1
+    - _OutlineColor: 0
+    - _OutlineCreaseAngle: 80
+    - _OutlineDarkness: 0
+    - _OutlineDepthSensitivity: 0.379
+    - _OutlineDrawCreases: 1
+    - _OutlineSoftness: 0.75
+    - _OutlineWidth: 3
+    - _PaletteColor: 8
+    - _PaletteDarkness: 0
+    - _PatternBand: 3
+    - _PatternDensity: 48
+    - _Projection: 0
+    - _ReceiveCastShadows: 1
+    - _ScreenPixelSize: 2.05
+    - _ShadingMode: 0
+    - _Shadow1Band: 7
+    - _Shadow1Brightness: 5
+    - _Shadow1Color: 0
+    - _Shadow1Darken: 3
+    - _Shadow1Darkness: 0
+    - _Shadow1Size: 0.4
+    - _Shadow2Band: 7
+    - _Shadow2Brightness: 2
+    - _Shadow2Color: 0
+    - _Shadow2Darken: 5
+    - _Shadow2Darkness: 0
+    - _Shadow2Size: 0.2
+    - _Shadow3Band: 7
+    - _Shadow3Brightness: 1
+    - _Shadow3Color: 0
+    - _Shadow3Darkness: 0
+    - _Shadow3Size: 0.08
+    - _Shadow4Band: 7
+    - _Shadow4Brightness: 0
+    - _Shadow4Color: 0
+    - _Shadow4Darkness: 0
+    - _Shadow4Size: 0.04
+    - _Shadow5Band: 7
+    - _Shadow5Brightness: 0
+    - _Shadow5Color: 0
+    - _Shadow5Darkness: 0
+    - _Shadow5Size: 0.02
+    - _Shadow6Band: 7
+    - _Shadow6Brightness: 0
+    - _Shadow6Color: 0
+    - _Shadow6Darkness: 0
+    - _Shadow6Size: 0.01
+    - _ShadowDarkness: 0.5
+    - _ShadowLayers: 0
+    - _Specular: 0
+    - _SpecularBand: 0
+    - _SpecularColor: 8
+    - _SpecularDarkness: 0
+    - _SpecularDensity: 3
+    - _SpecularSize: 0.3
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95dcd697ed387a947a8f3642aab57d3c, type: 3}
+  m_Name: StyleRoom
+  m_EditorClassIdentifier: Assembly-CSharp::StyleRoomDungeon
+  styleId: Normal
+  floorPrefab: {fileID: 7676287964267696326, guid: 1a7e174d8063e9741b2d8d71e7661555, type: 3}
+  wallPrefab: {fileID: 8294094759527773494, guid: a59f3cf3654a3204b8381e0c2ec0bc46, type: 3}
+  cornerNorthEastPrefab: {fileID: 5485881084829880350, guid: 6ba5e578aef6f024ea5e369dab822b33, type: 3}
+  cornerNorthWestPrefab: {fileID: 2202942533797641422, guid: 663ff80aca77bee4588224e0e0658c53, type: 3}
+  cornerSouthEastPrefab: {fileID: 4095208265754127155, guid: 2760f6d62e6c17041ad76e6b46453c3b, type: 3}
+  cornerSouthWestPrefab: {fileID: 6271616159926750712, guid: d137d073e6247b641b31462f8ed08cdb, type: 3}

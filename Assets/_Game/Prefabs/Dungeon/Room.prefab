@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &188493092374164437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897729694811630643}
+  - component: {fileID: 5265154228058910276}
+  - component: {fileID: 4475402818479412622}
+  - component: {fileID: 1424718560905865993}
+  m_Layer: 0
+  m_Name: GeneratorCA - depreciated -
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5897729694811630643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188493092374164437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7391886872102481556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5265154228058910276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188493092374164437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecad8508693acb45923f004cf21b7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.CA::DungeonGeneratorCA
+  dungeonSettings: {fileID: 11400000, guid: 3b6164b0555e9254b97ed0b9a6eef8c1, type: 2}
+  rulePreset: {fileID: 0}
+  cellPrefab: {fileID: 0}
+  floorPrefab: {fileID: 0}
+  cellSize: 1
+  finalSeed: 0
+  seed: 0
+  useRandomSeed: 0
+  generateOnStart: 0
+  generationSize: {x: 0, y: 0}
+  generatedRoot: {fileID: 0}
+--- !u!114 &4475402818479412622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188493092374164437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d84f2b7b274a404eb6c13c0ac4e548c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.CA::NoiseVisualCA
+  generator: {fileID: 5265154228058910276}
+  floorPrefab: {fileID: 0}
+  cellSize: 1
+  generatedRoot: {fileID: 0}
+--- !u!114 &1424718560905865993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188493092374164437}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2492923be2651214db7f46382f4efe7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.RoomCA::RoomNoiseCA
+  room: {fileID: 0}
+  generator: {fileID: 5265154228058910276}
+--- !u!1 &3112013163413940199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2156397921297792418}
+  - component: {fileID: 7126484412358464528}
+  m_Layer: 0
+  m_Name: Render
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2156397921297792418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112013163413940199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7391886872102481556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7126484412358464528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112013163413940199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73b4be64e8760a4caea7b719595c0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.Runtime::RoomVisual
+  room: {fileID: 4364176043489698342}
+  style: {fileID: 11400000, guid: 6edfd568c283eb1409ec04c8f9720022, type: 2}
+  generatedRoot: {fileID: 0}
+--- !u!1 &5757937510301927106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7391886872102481556}
+  - component: {fileID: 4364176043489698342}
+  - component: {fileID: 8589214683269967851}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7391886872102481556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757937510301927106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5897729694811630643}
+  - {fileID: 452611225310654000}
+  - {fileID: 2156397921297792418}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4364176043489698342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757937510301927106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779129afec17b1d48bc80f89cd0b5eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.Runtime::Room
+  data:
+    id: 0
+    partition:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    padding: 0
+    seed: 0
+    openings: []
+  initialized: 0
+  generateContentAutomatically: 1
+  contentRequested: 0
+  initialDifficulty: 0
+  difficultyLevel: 0
+--- !u!114 &8589214683269967851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757937510301927106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ea6b060e242c04db70d88b3ec348da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.Runtime::RoomTireTracks
+  pixelsPerUnit: 32
+  maximumTextureSize: 1024
+  trackColor: {r: 0.025, g: 0.022, b: 0.02, a: 0.8}
+--- !u!1 &5793886640450989276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452611225310654000}
+  - component: {fileID: 8732250571212078292}
+  - component: {fileID: 3733037554839035591}
+  m_Layer: 0
+  m_Name: GeneratorSRP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452611225310654000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793886640450989276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7391886872102481556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8732250571212078292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793886640450989276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f716f5609293ed41b92bfab1e4ae995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.SRP::GeneratorSRP
+  room: {fileID: 4364176043489698342}
+  settings: {fileID: 11400000, guid: ae16b9e8586c1e1409dfb96b0eb126f2, type: 2}
+  layout:
+    width: 0
+    height: 0
+    seed: 0
+    difficultyLevel: 0
+    trapAttempts: 0
+    trapCellRemainder: 0
+    trapBudgets: []
+    barrelCount: 0
+    placements: []
+--- !u!114 &3733037554839035591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793886640450989276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b54098f6b306e341bde692beaa90595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dungeon.SRP::VisualSRP
+  generator: {fileID: 8732250571212078292}
+  generatedRoot: {fileID: 0}

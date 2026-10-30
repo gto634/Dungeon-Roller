@@ -1,0 +1,30 @@
+.srp-preview {
+    height: 240px;
+    margin-top: 8px;
+}
+.srp-explanation {
+    white-space: normal;
+}
+.srp-hidden {
+    display: none;
+}
+.srp-asset-section {
+    -unity-font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.srp-probability-row {
+    flex-direction: row;
+    align-items: center;
+}
+.srp-probability-label {
+    min-width: 120px;
+    margin-left: 3px;
+}
+.srp-probability-prefix {
+    margin-right: 4px;
+}
+.srp-probability-denominator {
+    flex-grow: 1;
+    min-width: 50px;
+}

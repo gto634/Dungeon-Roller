@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3485449b3841ba41b0aec3c7344ef09, type: 3}
+  m_Name: FollowSpike
+  m_EditorClassIdentifier: Dungeon.CA::CellStateCA
+  stateId: follow_spike
+  previewPrefab: {fileID: 0}
+  previewColor: {r: 1, g: 0, b: 0, a: 1}
+  footprint: {x: 1, y: 1}
+  followState: {fileID: 0}
+  wallPadding: 0
+  previewAge: 0

@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6905799669239506145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4328243442740894628}
+  - component: {fileID: 4928773431930274259}
+  m_Layer: 0
+  m_Name: PointManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4328243442740894628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6905799669239506145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5215021739243599441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4928773431930274259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6905799669239506145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e36bb6984c6ed4ea12e892889f1fc0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Game.Management::PointManager
+  gameManager: {fileID: 127510325191833464}
+  points: 0
+  multiplierTimeout: 10
+--- !u!1 &8108715915258969917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5215021739243599441}
+  - component: {fileID: 8670656559668591827}
+  - component: {fileID: 237910278848281445}
+  - component: {fileID: 127510325191833464}
+  - component: {fileID: 6595512312033749257}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5215021739243599441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108715915258969917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4328243442740894628}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8670656559668591827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108715915258969917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a6f799ba7c01c49aed8c7cda62e38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Management::RoomManager
+  generator: {fileID: 0}
+  player: {fileID: 0}
+  playerRoomIndex: -1
+--- !u!114 &237910278848281445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108715915258969917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af352b0f7d7755543a209193bbb2ca68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Management::DifficultyManager
+  settings: {fileID: 11400000, guid: 28727406ff6db41408f0db415311018b, type: 2}
+  clockRunning: 1
+  difficultyLevel: 0
+  elapsedSeconds: 0
+  totalSeconds: 0
+  initialized: 0
+--- !u!114 &127510325191833464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108715915258969917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a26e37b86c1f2c48b3a76319d05a4d5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Game.Management::GameManager
+  dungeon: {fileID: 0}
+  roomManager: {fileID: 8670656559668591827}
+  difficultyManager: {fileID: 237910278848281445}
+  levelManager: {fileID: 0}
+  meteorManager: {fileID: 0}
+  bumperManager: {fileID: 6595512312033749257}
+  pointManager: {fileID: 4928773431930274259}
+  generateOnStart: 1
+  exitPrefab: {fileID: 0}
+--- !u!114 &6595512312033749257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108715915258969917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fa8460483f1124da755dac883db103, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Game.Management::BumperManager
+  difficultyManager: {fileID: 237910278848281445}
+  roomManager: {fileID: 8670656559668591827}
+  gameManager: {fileID: 127510325191833464}
+  bumperPrefab: {fileID: 8596634527877213017, guid: c196f7ef9d8bee8469c98c90d870266b, type: 3}
+  initialDelay: 30
+  initialSpawnInterval: 20
+  intervalReductionPerLevel: 0.1
+  minimumSpawnInterval: 5
+  cellsPerBumper: 150
+  maximumPerRoom: 6
+  wallMargin: 1
+  playerSpawnDistance: 3
+  movementSpeed: 2.5
+  movingChance: 1
+  initialHomingTurnSpeed: 5
+  maximumHomingTurnSpeed: 50
+  homingLevelsToCap: 12

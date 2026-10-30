@@ -1,0 +1,11 @@
+{
+  "name": "Dungeon.Runtime",
+  "rootNamespace": "",
+  "references": [
+    "Unity.InputSystem",
+    "NaughtyAttributes.Core",
+    "Unity.TextMeshPro",
+    "Unity.ugui"
+  ],
+  "autoReferenced": true
+}

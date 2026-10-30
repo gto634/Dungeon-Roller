@@ -1,0 +1,6 @@
+{
+  "name": "Game.Management.Editor",
+  "references": ["Game.Management", "Dungeon.Runtime", "Dungeon.SRP"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Game.Camera",
+  "references": ["Dungeon.Runtime", "Unity.Cinemachine"],
+  "autoReferenced": true
+}

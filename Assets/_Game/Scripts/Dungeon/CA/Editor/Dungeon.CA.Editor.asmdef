@@ -1,0 +1,6 @@
+{
+    "name": "Dungeon.CA.Editor",
+    "references": ["Dungeon.CA"],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": true
+}

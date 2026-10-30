@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6f10e2b057c24fe47bd0f7154d9f5316
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _PatternAtlas: {fileID: 2800000, guid: cce267d90bf35f840b994c84fbe19b61, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

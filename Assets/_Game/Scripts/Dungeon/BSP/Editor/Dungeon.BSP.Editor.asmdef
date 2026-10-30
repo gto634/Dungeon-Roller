@@ -1,0 +1,11 @@
+{
+  "name": "Dungeon.BSP.Editor",
+  "references": [
+    "Dungeon.Runtime",
+    "Game.Management"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

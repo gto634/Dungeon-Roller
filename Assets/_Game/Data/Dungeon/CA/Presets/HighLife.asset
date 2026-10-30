@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37bc639eccd7f24f9b8d6fb5d430d53, type: 3}
+  m_Name: HighLife
+  m_EditorClassIdentifier: Dungeon.CA::RulePresetCA
+  rules:
+  - {fileID: 11400000, guid: feeee7f853339434eaa3d21694d67fff, type: 2}
+  - {fileID: 11400000, guid: 8baf14a8ca0d3eb45bbe54dc23fb1893, type: 2}
+  - {fileID: 11400000, guid: ff23e21a20e8042419f20f8be0881f6d, type: 2}
+  defaultState: 0
